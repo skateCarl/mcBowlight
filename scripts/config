@@ -27,7 +27,7 @@ SCREEN="server_screen"
 USERNAME="root"
 
 # Path to the git clone
-GITPATH="~/mcSkateCarl"
+GITPATH="./"
 
 # Path to minecraft server directory 
 MCPATH="${GITPATH}/minecraft"
