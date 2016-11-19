@@ -27,7 +27,7 @@ SCREEN="server_screen"
 USERNAME="ubuntu"
 
 # Path to the git clone
-GITPATH="/home/${USERNAME}/CPspigotServer"
+GITPATH="/home/${USERNAME}/mcSkateCarl"
 
 # Path to minecraft server directory 
 MCPATH="${GITPATH}/minecraft"
