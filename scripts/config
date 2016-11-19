@@ -24,7 +24,7 @@ SERVICE=$CB_JAR
 SCREEN="server_screen"
 
 # User that should run the server
-USERNAME="ubuntu"
+USERNAME="root"
 
 # Path to the git clone
 GITPATH="/home/${USERNAME}/mcSkateCarl"
