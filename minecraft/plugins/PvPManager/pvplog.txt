@@ -1,3 +1,0 @@
-This file logs all players that disconnected during combat
-You can disable the logging in the config
-
