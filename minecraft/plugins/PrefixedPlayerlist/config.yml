@@ -1,0 +1,15 @@
+pplconfig: true
+options:
+  checkVersion: true
+  usePEXPrefix: false
+  useColourOnly: false
+prefixgroups:
+  general:
+    default: '&f'
+    op: '&4'
+    creative: '&6C'
+    adventure: '&2A'
+    survival: ''
+  custom:
+    team_a: '[A]'
+    team_b: '[B]'

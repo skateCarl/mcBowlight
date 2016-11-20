@@ -1,0 +1,93 @@
+DO NOT DELETE: PlayerReporter is developed and managed by Shades161
+Messages Version: '4.0'
+Prefix: '&5[Reporter]'
+Report:
+  UnclaimedNotify: '&3There are &2%unclaimed% &3unclaimed reports! View them with
+    &1/report list&3!'
+  Help: '&4Please use: /report help for a list of commands.'
+  ReportSent: '&aYour report has been sent! Our staff will review it as soon as they
+    can!'
+  NewReport: '&4A new report has been made! &aReported by &2%reporter%. &aId: &2%Id%'
+  NoExist: '&4A report with that Id does not exist!'
+  AlreadyClosed: '&4That report is already closed/solved and cannot be edited!'
+  AlreadyAssigned: '&cReport Id: &a%Id% &cis already assigned to &a%name%'
+  NowAssigned: '&aReport Id: &2%Id% &ais now assigned to: &5%name%'
+  NoAssignedYet: '&4Report Id: &3%Id% &4is not assigned to anyone yet!'
+  NowOpen: '&aReport Id &3%Id% &ais now open for anyone to claim!'
+  AlreadyClaimed: '&cReport Id: &a%Id% &cis already claimed by &a%name%'
+  ClaimSelf: '&aYou have claimed report Id &2%Id%'
+  UnclaimSelf: '&aYou have unclaimed report Id &2%Id%'
+  Closed: '&aReport Id &2%Id% &ahas been closed!'
+  Deleted: '&aReport Id &2%Id% &ahas been closed and deleted from all files!'
+  CloseClaimed: '&4You cannot close that report because it is not assigned/claimed
+    by you!'
+  UnclaimedListHeader:
+    All: '&6-~-~- &1Unclaimed Reports By Id &6-~-~-'
+    Self: '&6-~-~- &1Your Claimed/Open Reports By Id &6-~-~-'
+    Other: '&6-~- &1Claimed/Open Reports For &5%name% &6-~-'
+  NoUnclaimed: '&aThere are currently no claimed reports!'
+  NoClaimed:
+    Self: '&aYou have no claimed/open reports!'
+    Other: '&aThat player has no claimed/open reports!'
+  See:
+    Header: '&6-~- &1Viewing Report Id &3%Id% &6-~-'
+    Reporter: '&aReported By: &c%name%'
+    PlayerReported: '&aPlayer Reported: &c%name%'
+    Reason: '&aReason: &c%reason%'
+    Time:
+      Reported: '&aDate/Time Reported: &c%time%'
+      Closed: '&aDate/Time Closed/Solved: &c%time%'
+    Claimed: '&aClaimed: &c%value%'
+    AssignedTo: '&aAssigned To: &c%name%'
+    Closed: '&aClosed: &c%value%'
+Bug:
+  UnclaimedNotify: '&3There are &2%unclaimed% &3unclaimed bug reports! View them with
+    &1/bug list&3!'
+  Help: '&4Please use: &a/bug help &4for a list of commands.'
+  ReportSent: '&aYour bug report has been sent! our staff will review it as soon as
+    they can!'
+  NewReport: '&4A new bug report has been made! &aReported by: &2%reporter%. &aId:
+    &2%Id%'
+  NoExist: '&4A bug report with that Id does not exist!'
+  AlreadyClosed: '&4That bug report is already closed/solved and cannot be edited!'
+  AlreadyAssigned: '&cBug report Id: &a%Id% &cis already assigned to &a%name%'
+  NowAssigned: '&aBug report Id: &2%Id% &ais now assigned to: &5%name%'
+  NoAssignedYet: '&4Bug report Id: &3%Id% &4is not assigned to anyone yet!'
+  NowOpen: '&aBug report Id &3%Id% &ais now open for anyone to claim!'
+  AlreadyClaimed: '&cBug report Id: &a%Id% &cis already claimed by &a%name%'
+  ClaimSelf: '&aYou have claimed bug report Id &2%Id%'
+  UnclaimSelf: '&aYou have unclaimed bug report Id &2%Id%'
+  Closed: '&aBug report Id &2%Id% &ahas been closed!'
+  Deleted: '&aBug report Id &2%Id% &ahas been closed and deleted from all files!'
+  CloseClaimed: '&4You cannot close that bug report because it is not assigned/claimed
+    by you!'
+  UnclaimedListHeader:
+    All: '&6-~-~- &1Unclaimed Bug Reports By Id &6-~-~-'
+    Self: '&6-~-~- &1Your Claimed/Open Bug Reports By Id &6-~-~-'
+    Other: '&6-~- &1Claimed/Open Bug Reports For &5%name% &6-~-'
+  NoUnclaimed: '&aThere are currently no claimed Bug reports!'
+  NoClaimed:
+    Self: '&aYou have no claimed/open bug reports!'
+    Other: '&aThat player has no claimed/open bug reports!'
+  See:
+    Header: '&6-~- &1Viewing Bug Report Id &3%Id% &6-~-'
+    Reporter: '&aReported By: &c%name%'
+    Reason: '&aReason/Bug: &c%reason%'
+    Time:
+      Reported: '&aDate/Time Reported: &c%time%'
+      Closed: '&aDate/Time Closed/Solved: &c%time%'
+    Claimed: '&aClaimed: &c%value%'
+    AssignedTo: '&aAssigned To: &c%name%'
+    Closed: '&aClosed: &c%value%'
+Notifications:
+  Perm: '&4You do not have permission to do that!'
+  NoPlayer: '&4That player does not exist or has never been on this server before!'
+  NotOnline: '&4That player is not online right now! You cannot report them!'
+  Update:
+    Version: '&6A new version of PlayerReporter is available: &9%version%'
+    Link: '&aDownload it at: &9%link%'
+    Console:
+      Version: 'A new version of PlayerReporter is available: %version%'
+      Link: 'Download it at: %link%'
+Color:
+  For help with color formating visit: http://minecraft.gamepedia.com/Formatting_codes
